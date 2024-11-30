@@ -27,8 +27,6 @@ import { FaHouseMedical, FaLocationDot } from "react-icons/fa6";
 import Testimonials from "./components/Testimonials";
 import ShareModal from "./components/ShareModal";
 import { useRouter } from "next/navigation";
-import BackButton from "@/components/BackButton";
-
 const TherapistProfile = () => {
   const [showMore, setShowMore] = useState(false);
 
@@ -108,8 +106,8 @@ const TherapistProfile = () => {
             <div className="bg-gradient-to-br from-purple-100 to-pink-100 shadow-lg rounded-lg p-6">
               <h3 className="text-xl font-bold mb-4">About Me</h3>
               <div className="text-gray-700">
-                Hello, I'm Swetha, a licensed therapist dedicated to guiding
-                individuals through life's challenges with empathy and
+                Hello, I&apos;m Swetha, a licensed therapist dedicated to guiding
+                individuals through life&apos;s challenges with empathy and
                 expertise. With over 4 years of experience, I specialize in
                 helping clients manage anxiety, depression, and relationship
                 issues through personalized, evidence-based practices.

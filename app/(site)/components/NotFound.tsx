@@ -18,10 +18,10 @@ function NotFound() {
       </h1>
       <div className="gap-y-1">
         <p className="text-center text-gray-500 text-base text-[14px] md:text-[16px]">
-          It seems we can't find the page you're looking for,
+          It seems we can&apos;t find the page you&apos;re looking for,
         </p>
         <p className="text-center text-gray-500 text-base text-[14px] md:text-[16px]">
-          Let's get you back on track!
+          Let&apos;s get you back on track!
         </p>
       </div>
       <div
