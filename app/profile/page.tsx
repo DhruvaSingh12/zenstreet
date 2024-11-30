@@ -62,7 +62,7 @@ const TherapistProfile = () => {
                   />
                 </div>
                 <div className="absolute top-0 right-0 lg:right-4">
-                  <ShareModal pageLink={"https://www.yoursite.com"} />
+                  <ShareModal pageLink={"https://zenstreet-ten.vercel.app/profile"} />
                 </div>
               </div>
               <h2 className="text-2xl items-center flex flex-row font-bold mt-4 text-black">
