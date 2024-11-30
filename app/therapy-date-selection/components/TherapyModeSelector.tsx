@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaVideo, FaPhone, FaMapMarkerAlt, FaMobile } from "react-icons/fa";
+import { FaVideo, FaMapMarkerAlt, FaMobile } from "react-icons/fa";
 import { FaHouseMedical } from "react-icons/fa6";
 
 const TherapyModeSelector = () => {
