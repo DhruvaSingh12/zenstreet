@@ -18,18 +18,18 @@ const SlotSelector = () => {
   };
 
   return (
-    <div className="mt-6">
+    <div className="mt-6 bg-white p-6 rounded-3xl shadow-lg">
       <h2 className="font-bold text-lg mb-4">Select Slots</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {Object.entries(slots).map(([time, slotTimes]) => (
-          <div key={time}>
+          <div className=" border p-4 rounded-lg shadow-lg" key={time}>
             <h3 className="font-semibold text-gray-600 capitalize">{time}</h3>
             {slotTimes.map((slot, index) => (
               <button
                 key={index}
-                className={`w-full p-2 mt-2 border rounded-lg ${
+                className={`px-6 mr-2 py-2 mt-2 border-black border rounded-full ${
                   selectedSlots.includes(slot)
-                    ? "bg-blue-500 text-white"
+                    ? "bg-blue-500 border-blue-500 text-white"
                     : "bg-gray-100"
                 }`}
                 onClick={() => toggleSlot(slot)}

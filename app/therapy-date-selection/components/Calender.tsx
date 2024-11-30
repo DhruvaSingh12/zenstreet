@@ -26,7 +26,7 @@ const Calendar = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex items-center justify-center mt-6">
       <div className="shadow-xl bg-white rounded-3xl p-6 max-w-lg w-full">
         <div className="flex justify-between items-center mb-6">
           <button onClick={goToPreviousMonth} className="text-xl font-semibold text-gray-500 hover:text-gray-700">
