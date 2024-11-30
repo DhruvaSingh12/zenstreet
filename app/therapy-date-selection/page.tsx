@@ -14,7 +14,7 @@ export default function TherapyDateSelection() {
   };
 
   return (
-    <div className="p-6 bg-gray-50 min-h-screen">
+    <div className="p-6 bg-pink-100 min-h-screen">
       <div className="fixed top-0 left-0 right-0 z-50">
         <Header />
       </div>
