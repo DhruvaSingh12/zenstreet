@@ -1,7 +1,15 @@
+"use client";
+
 import React from "react";
 import Header from "../../components/Header";
+import { useRouter } from "next/navigation";
 
 const HomePage = () => {
+  const router = useRouter(); 
+  const handleBookSession = () => {
+    router.push('/profile'); 
+  };
+
   return (
     <div>
       <div className="fixed top-0 left-0 right-0 z-50">
@@ -72,6 +80,21 @@ const HomePage = () => {
               </form>
             </div>
           </div>
+
+          <div className="mt-10 p-6 items-center flex flex-col justify-center">
+            <p className="text-gray-100 text-sm sm:text-base mb-4">
+              Ready to book a session with one of our therapists? Click the button below to get started.
+            </p>
+            <div className="flex justify-center">
+              <button
+                onClick={handleBookSession} 
+                className="bg-white text-black text-lg py-2 px-16 rounded-full hover:text-white hover:bg-black transition"
+              >
+                Book a Session
+              </button>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
