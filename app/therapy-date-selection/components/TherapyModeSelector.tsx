@@ -12,7 +12,7 @@ const TherapyModeSelector = () => {
   ];
 
   const handleSelectMode = (mode: string) => {
-    setSelectedMode(mode === selectedMode ? null : mode); // Toggle the selected mode
+    setSelectedMode(mode === selectedMode ? null : mode);
   };
 
   return (
