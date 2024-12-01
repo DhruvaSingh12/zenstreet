@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { FaUserAlt, FaUsers, FaHandshake } from "react-icons/fa";
 import { FaPeopleGroup, FaUser, FaUserGroup } from "react-icons/fa6";
 
 interface Session {
